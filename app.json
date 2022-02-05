@@ -1,13 +1,13 @@
 {
-    "name": "Bin-Checker Bot",
-    "description": "A simple bot to check if the bin is valid or not.",
+    "name": "Bin-Info Bot",
+    "description": "Bot Of PHP",
     "keywords": [
         "Bin",
         "Bot",
         "Telegra."
     ],
-    "website": "#TODO",
-    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "website": "#Shein",
+    "repository": "https://github.com/Darkome43/Bin-Info",
     "success_url": "/",
     "env": {
         "BOT_TOKEN": {
