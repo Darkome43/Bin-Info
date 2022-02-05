@@ -56,7 +56,7 @@ if ($text == "/start") {
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***🔶Hello, I'm Bot Bin-Info.
-🔶Use me*** `.bin xxxxx` ***for Bin Info.
+🔶Use me*** `/bin xxxxx` ***for Bin Info.
 ✨$START_MESSAGE***",
  'parse_mode'=>'MarkDown',
             
