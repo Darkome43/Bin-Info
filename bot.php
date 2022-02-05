@@ -77,7 +77,7 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***VALID BIN✅
                
-➤ Bɪɴ : $bin
+➤ Bɪɴ : `$bin`
 
 ➤ Tʏᴘᴇ : $type
 
