@@ -56,8 +56,18 @@ if ($text == "/start") {
             bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***🔶Hello, I'm Bot Bin-Info.
-🔶Use me*** `/bin xxxxx` ***for Bin Info.
+🔶Use me*** `/cmds` ***for More Info.
 ✨$START_MESSAGE***",
+ 'parse_mode'=>'MarkDown',
+            
+        ]);
+ }if ($text == "/cmds") {
+
+            bot('sendmessage', [
+                'chat_id' =>$chat_id,
+                'text' =>"***I'm Bot Bin-Info.
+🔶Use*** `/bin xxxxx` ***for Bin Info.
+Bot By: @Shein0425***",
  'parse_mode'=>'MarkDown',
             
         ]);
