@@ -99,6 +99,8 @@ bot('sendmessage', [
 
 ➤ Cʀᴇᴅɪᴛ/Dᴇʙɪᴛ : $type
 
+➤ Extra :*** `$bin xxx8xx56x7` ***
+
 🔺Owner Bin-Info bot: @Shein0425🔻***",
 'parse_mode'=>"MarkDown",
 ]);
