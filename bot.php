@@ -81,25 +81,26 @@ $type =  $data['data']['type'];
 $level =  $data['data']['level'];
 $bank =  $data['data']['bank'];
 $country =  $data['data']['country'];
+$level =  $data['data']['level'];
 
  if($data['data']){
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***VALID BIN✅
                
-➤ Bɪɴ :*** `$bin` ***
+➤ Bin :*** `$bin` ***
 
-➤ Tʏᴘᴇ : $type
+➤ Type : $type
 
-➤ Bʀᴀɴᴅ : $vendor
+➤ Brand : $vendor
 
-➤ Bᴀɴᴋ : $bank
+➤ Bank : $bank
 
-➤ Cᴏᴜɴᴛʀʏ : $country
+➤ Level : $level
 
-➤ Cʀᴇᴅɪᴛ/Dᴇʙɪᴛ : $type
+➤ Counry : $country
 
-➤ Extra :*** `$bin xxx8xx56x7` ***
+➤ Credit/debit : $type
 
 🔺Owner Bin-Info bot: @Shein0425🔻***",
 'parse_mode'=>"MarkDown",
